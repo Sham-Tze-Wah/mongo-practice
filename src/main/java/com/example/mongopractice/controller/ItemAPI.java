@@ -16,6 +16,7 @@ public class ItemAPI {
     @Autowired
     ItemRepository groceryItemRepo;
 
+    //Return ResponseEntity of Object Type
     @PostMapping(value = ENTITY_NAME+"/post")
     public ResponseEntity<Object> saveItems(){
         System.out.println("Data creation started...");
