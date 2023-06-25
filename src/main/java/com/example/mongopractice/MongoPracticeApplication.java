@@ -25,6 +25,7 @@ public class MongoPracticeApplication implements CommandLineRunner {
 	@Autowired
 	ItemRepository groceryItemRepo;
 
+	//new comment
 	public static void main(String[] args) {
 		SpringApplication.run(MongoPracticeApplication.class, args);
 	}
