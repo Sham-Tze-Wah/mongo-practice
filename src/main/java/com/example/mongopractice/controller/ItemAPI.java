@@ -26,7 +26,7 @@ public class ItemAPI {
         groceryItemRepo.save(new GroceryItem("Pearl Millet", "Healthy Pearl Millet", 1, "millets"));
         groceryItemRepo.save(new GroceryItem("Cheese Crackers", "Bonny Cheese Crackers Plain", 6, "snacks"));
         System.out.println("Data creation complete...");
-        return new ResponseEntity<>(HttpStatus.CREATED);
+        return new ResponseEntity<>(HttpStatus.CREATED); //need improvement
     }
 
     @GetMapping(value = ENTITY_NAME+"/get")
